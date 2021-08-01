@@ -1,5 +1,27 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.clearfix {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.q7 .q7__box {
+  width: 250px;
+}
+
+.q7--float .q7__box {
+  float: left;
+  font-size: 16px;
+  margin-left: 50px;
+  box-sizing: border-box;
+}
+
+.q7--float .q7__box:first-child {
+  margin-left: 0;
+}
+
 
 /* 回答はここに書いてね */
+
