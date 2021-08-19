@@ -22,6 +22,9 @@
   margin-left: 0;
 }
 
+.Q7-2 .q7__inner {
+  display: table;
+}
 
 .Q7-2 .box__content {
   display: table-cell;
@@ -44,8 +47,7 @@
   margin-left: 0;
 }
 
-.Q7-3,
-.Q7-5{
+.Q7-3 {
   font-size: 0;
 }
 
@@ -74,6 +76,10 @@
 
 .Q7-5 .box__content {
   vertical-align: top;
+}
+
+.Q7-5 .q7__inner {
+  font-size: 0;
 }
 
 

@@ -16,7 +16,8 @@
 }
 
 .q6__box.is-margin .q6__box__text{
-  display: inline-block;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .q6__box.is-margin .q6__box__inner {

@@ -22,49 +22,51 @@
   margin-left: 0;
 }
 
+.q7--table .q7__inner {
+  display: table;
+}
 
-.Q7-2 .box__content {
+.q7--table .box__content {
   display: table-cell;
   padding-left: 50px;
   vertical-align: middle;
 }
 
-.Q7-2 .box__content:first-child {
+.q7--table .box__content:first-child {
   padding-left: 0;
 }
 
-.Q7-3 .box__content {
+.q7--inlineblock .box__content {
   display: inline-block;
   margin-left: 50px;
   vertical-align: middle;
   box-sizing: border-box;
 }
 
-.Q7-3 .box__content:first-child {
+.q7--inlineblock .box__content:first-child {
   margin-left: 0;
 }
 
-.Q7-3,
-.Q7-5{
+.q7--inlineblock .q7__inner {
   font-size: 0;
 }
 
-.Q7-4 .q7__inner {
+.q7--flex .q7__inner {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
 }
 
-.Q7-4 .box__content {
+.q7--flex .box__content {
   box-sizing: border-box;
 }
 
-.Q7-5 .box__content.is-left {
+.q7--margin .box__content.is-left {
   display: inline-block;
   width: 300px;
 }
 
-.Q7-5 .box__content.is-right {
+.q7--margin .box__content.is-right {
   width: 100%;
   display: inline-block;
   box-sizing: border-box;
@@ -72,8 +74,12 @@
   padding-left: 350px;
 }
 
-.Q7-5 .box__content {
+.q7--margin .box__content {
   vertical-align: top;
+}
+
+.q7--margin .q7__inner {
+  font-size: 0;
 }
 
 
